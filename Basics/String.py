@@ -18,5 +18,5 @@ print("name:\t Dhruv")
 print("this is backslash\\")
 
 #if we want to print escape sequences as normal text then we can use any of the two methods as follows::
-print(r"line a\nline b)
-print("line a\\nline b)      
+print(r"line a\nline b")
+print("line a\\nline b")      
