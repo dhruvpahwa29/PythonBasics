@@ -11,3 +11,9 @@ print(b)
 print('hello\'world\' world')
 print("hello\"world\" world")
 #As we use backslash before quotation marks then it means quotation marks only as\' means single quotes, \" means double quotes, \n means new line,\t means tab space and \b means backspace.       
+
+print("line a \n line b")
+print("name:\t Dhruv")
+#print("this is blackslash\") this will not run as \" acc. to interpreter our line is not completed we should use \\ to print a singlr backslash
+print("this is backslash\\")
+print("hell\blo")# this is backspace
