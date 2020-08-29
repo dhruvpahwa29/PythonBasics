@@ -10,7 +10,7 @@ print(b)
 #If we want to use single qouotes inside single quotes and in double quotes case ,we can use like this:
 print('hello\'world\' world')
 print("hello\"world\" world")
-#As we use backslash before quotation marks then it means quotation marks only as\' means single quotes, \" means double quotes, \n means new line,\t means tab space and \b means backspace.       
+#As we use backslash before quotation marks then it means quotation marks only as\' means single quotes, \" means double quotes, \n means new line,\t means tab space and \b means backspace these all are known as escape sequences.       
 
 print("line a \n line b")
 print("name:\t Dhruv")
