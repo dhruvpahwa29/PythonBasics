@@ -17,3 +17,6 @@ print("name:\t Dhruv")
 #print("this is blackslash\") this will not run as \" acc. to interpreter our line is not completed we should use \\ to print a singlr backslash
 print("this is backslash\\")
 
+#if we want to print escape sequences as normal text then we can use any of the two methods as follows::
+print(r"line a\nline b)
+print("line a\\nline b)      
