@@ -6,7 +6,7 @@ print(a)
 #(whereas these would terminate the string if using single quotes)
 b = "Don't worry about apostrophes"
 print(b)
-#We cannot use single inside single qoutes and double inside double qoutes
+#We cannot use single qoutes inside single qoutes statement and double qoutes inside double qoutes statement
 #If we want to use single qoutes inside single quotes and in double qoutes case ,we can use like this:
 print('hello\'world\' world')
 print("hello\"world\" world)
