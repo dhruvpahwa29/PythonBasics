@@ -16,4 +16,4 @@ print("line a \n line b")
 print("name:\t Dhruv")
 #print("this is blackslash\") this will not run as \" acc. to interpreter our line is not completed we should use \\ to print a singlr backslash
 print("this is backslash\\")
-print("hell\blo")# this is backspace
+
