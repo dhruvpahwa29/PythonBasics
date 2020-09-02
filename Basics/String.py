@@ -20,3 +20,6 @@ print("this is backslash\\")
 #if we want to print escape sequences as normal text then we can use any of the two methods as follows::
 print(r"line a\nline b")
 print("line a\\nline b")      
+
+c = "HII"
+print(c*3)#IT WILL PRINT HII 3 TIMES
