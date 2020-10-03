@@ -1,5 +1,6 @@
 #LIST IS MUTABLE,ITS VALUES CAN BE CHANGED
 a = [1,2,3,4]
+
 print(a)
 print(a[0])
 print(a[1:100])
@@ -11,7 +12,7 @@ print(b)
 c =[a,b]
 print(c)
 
-a.append(43)#IT WILL INSERT NUMBER 34 AT THE END OF THE LIST
+a.append(43)#IT WILL INSERT NUMBER 43 AT THE END OF THE LIST
 print(a)
 
 c.append(56)
