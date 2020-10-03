@@ -14,7 +14,7 @@ print("hello\"world\" world")
 
 print("line a \n line b")
 print("name:\t Dhruv")
-#print("this is blackslash\") this will not run as \" acc. to interpreter our line is not completed we should use \\ to print a singlr backslash
+#print("this is blackslash\") this will not run as \" acc. to interpreter our line is not completed we should use \\ to print a single backslash
 print("this is backslash\\")
 
 #if we want to print escape sequences as normal text then we can use any of the two methods as follows::
@@ -23,3 +23,6 @@ print("line a\\nline b")
 
 c = "HII"
 print(c*3)#IT WILL PRINT HII 3 TIMES
+
+
+
