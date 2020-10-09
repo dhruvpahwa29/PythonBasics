@@ -47,3 +47,23 @@ print(a<9 or b<8) #Or Operator: It will print true when only one or both stateme
 a =True
 a=not a #Not Operator :We can use not operator for reversing value
 print(a)
+
+
+
+
+   
+#IN OPERATOR::
+
+name = "JOHN"
+if name in ["JOHN" ,"RICK"]: #it will check whether the value of name is present in square brackets or not
+    print("YOUR NAME IS EITHER JOHN OR RICK")
+
+
+
+#IS OPERATOR::
+
+x=[1,2,3]
+y=[1,2,3]
+print(x is y) #it will print false as it checks whether both x and y refers to same object or not
+
+
