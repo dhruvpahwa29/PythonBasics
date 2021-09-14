@@ -1,0 +1,8 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+TC1
+    Open Browser    https://www.nykaa.com/    chrome
+    Click Element    //input[@class='header__search-input form-control']
+    Input Text    //input[@class='header__search-input form-control']    Just herbs
