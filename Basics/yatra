@@ -1,0 +1,16 @@
+*** Settings ***
+Library           SeleniumLibrary
+
+*** Test Cases ***
+TC1
+    Open Browser    https://www.yatra.com/    chrome
+    Clear Element Text    //input[@class='required_field cityPadRight ac_input origin_ac']
+    Input Text    //input[@class='required_field cityPadRight ac_input origin_ac']    Mumbai
+    Wait Until Page Contains Element    //span[text()='(BOM)']
+    Click Element    //span[text()='(BOM)']
+    Clear Element Text    //input[@class='required_field cityPadLeft ac_input dest_ac']
+    Input Text    //input[@class='required_field cityPadLeft ac_input dest_ac']    Goa
+    Wait Until Page Contains Element    //span[text()='(GOI)']
+    Click Element    //span/strong[text()='Goa']
+    Click Element    //input[@class='custom-date-input BE_flight_origin_date']
+    Click Element    //td[@data-date='24/09/2021']
